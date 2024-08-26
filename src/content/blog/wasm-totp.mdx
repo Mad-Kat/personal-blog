@@ -1,0 +1,15 @@
+---
+title: "Understanding TOTP: Time-based One-Time Passwords"
+pubDate: "2023-02-15T08:00+02:00"
+description: "Using WebAssembly to generate time-based one-time passwords (TOTP) in the browser."
+seoTitle: "Understanding TOTP: Time-based One-Time Passwords"
+---
+
+import { Totp } from "../../components/totp/Totp";
+
+## What is TOTP?
+
+TOTP is an extension of the HMAC-based One-Time Password (HOTP) algorithm. It combines a secret key with the current time to generate a unique, short-lived password. This time-based approach adds an extra layer of security by ensuring that each password is valid only for a limited time.
+
+
+<Totp client:load="react" />
