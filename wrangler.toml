@@ -3,6 +3,9 @@ name = "personal-blog"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-08-31"
 
-[env.production.build.vars]
+[vars]
 NODE_VERSION = "21.5.0"
 BUN_VERSION = "1.1.17"
+
+[env]
+production = { }
