@@ -1,0 +1,15 @@
+{
+  "name": "rust-totp",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_totp_bg.wasm",
+    "rust_totp.js",
+    "rust_totp.d.ts"
+  ],
+  "main": "rust_totp.js",
+  "types": "rust_totp.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
